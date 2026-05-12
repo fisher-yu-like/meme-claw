@@ -1,0 +1,12 @@
+import os
+print("OPENAI_API_KEY:", os.getenv("OPENAI_API_KEY"))
+print("OPENAI_BASE_URL:", os.getenv("OPENAI_BASE_URL"))
+print("MEMECLAW_LLM_MODEL:", os.getenv("MEMECLAW_LLM_MODEL"))
+print("SERPAPI_KEY:", os.getenv("SERPAPI_KEY"))
+print("MONGO_URI:", os.getenv("MONGO_URI"))
+print("VECTOR_DB_PATH:", os.getenv("VECTOR_DB_PATH"))
+print("MEMECLAW_EXPORT_DIR:", os.getenv("MEMECLAW_EXPORT_DIR"))
+print("SEARCH_API:", os.getenv("SEARCH_API"))
+print("LLM_API_KEY:", os.getenv("OPENAI_API_KEY", "sk-xxx"))
+print("LLM_BASE_URL:", os.getenv("OPENAI_BASE_URL", "https://api.deepseek.com"))
+print("LLM_MODEL:", os.getenv("MEMECLAW_LLM_MODEL", "deepseek-v4-pro"))

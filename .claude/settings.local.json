@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import ast; ast.parse\\(open\\('memeclaw/agents/anthropologist.py', encoding='utf-8'\\).read\\(\\)\\); print\\('OK'\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('memeclaw/tools/search.py', encoding='utf-8'\\).read\\(\\)\\); print\\('OK'\\)\")",
+      "Bash(.venv/Scripts/python.exe -c \"import ast; ast.parse\\(open\\('memeclaw/tools/json_repair.py', encoding='utf-8'\\).read\\(\\)\\); print\\('json_repair.py OK'\\)\")",
+      "Bash(.venv/Scripts/python.exe -c \"import ast; ast.parse\\(open\\('memeclaw/agents/intelligence.py', encoding='utf-8'\\).read\\(\\)\\); print\\('intelligence.py OK'\\)\")",
+      "Bash(.venv/Scripts/python.exe -c \"import ast; ast.parse\\(open\\('memeclaw/agents/anthropologist.py', encoding='utf-8'\\).read\\(\\)\\); print\\('anthropologist.py OK'\\)\")",
+      "Bash(.venv/Scripts/python.exe -c \"import ast; ast.parse\\(open\\('memeclaw/tools/search.py', encoding='utf-8'\\).read\\(\\)\\); print\\('search.py OK'\\)\")",
+      "Bash(.venv/Scripts/python.exe -c \"from memeclaw.tools.json_repair import JSONRepairAgent, extract_json; print\\('json_repair imports OK'\\)\")",
+      "Bash(.venv/Scripts/python.exe -c \"from memeclaw.tools.search import search_platform_memes_grouped; print\\('search imports OK'\\)\")",
+      "Bash(.venv/Scripts/python.exe -c \"from memeclaw.agents.intelligence import IntelligenceAgent; print\\('intelligence imports OK'\\)\")",
+      "Bash(.venv/Scripts/python.exe -c \"from memeclaw.agents.anthropologist import AnthropologistAgent; print\\('anthropologist imports OK'\\)\")"
+    ]
+  }
+}

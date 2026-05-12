@@ -39,7 +39,7 @@
 ### 安装
 
 ```bash
-git clone https://github.com/YOUR_USER/memeclaw.git
+git clone https://github.com/fisher-yu-like/meme-claw.git
 cd memeclaw
 pip install -r memeclaw/requirements.txt
 ```

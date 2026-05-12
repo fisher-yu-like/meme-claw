@@ -1,0 +1,30 @@
+# MemeClaw — 网络梗智能检索与分析系统
+# Python 3.10+
+
+# ── Core Framework ──
+langgraph>=0.2.0
+pydantic>=2.0
+
+# ── LLM ──
+openai>=1.0
+
+# ── Search & Scraping ──
+duckduckgo_search>=6.0
+aiohttp>=3.9
+
+# ── Storage ──
+motor>=3.6             # Async MongoDB driver
+# chromadb>=0.5        # Vector DB for meme similarity (optional)
+
+# ── API Server ──
+fastapi>=0.110
+uvicorn>=0.29
+
+# ── Scheduling ──
+apscheduler>=3.10
+
+# ── Export ──
+# weasyprint>=62        # PDF export (optional, requires system deps)
+
+# ── JSON Repair ──
+json-repair>=0.40
